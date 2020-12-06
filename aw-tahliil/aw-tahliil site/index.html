@@ -19,49 +19,71 @@
 <body>
     
         <!--header section-->
+        <div class="jumbotron bg-secondary">
+          <h1 class="display-4 text-center text-white">Hello, and welcome to AW-TAHLIIL STATIONARY AND COMPUTER ACCESSORIES.</h1>
+          <div class="container d-md-block d-none">
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="par-1 text-white">
+                          <p class="lead">This is a simple hero unit, a simple jumbotron-style component for 
+                            calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content out within
+                           the larger container.</p>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+              </div><br>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="par-1 text-white">
+                        <p class="lead">This is a simple hero unit, a simple jumbotron-style component
+                           for calling extra attention to featured content or information.</p>
+                        <hr class="my-4">
+                        <p>It uses utility classes for typography and spacing to space content
+                           out within the larger container.</p>
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!----/ jumbo turn section -->
     <header>
         <!--navigation -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Categories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Help Center</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About AW-TAHLIIL </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Services
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact Us</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0 bg-danger" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark ">
+          <a class="navbar-brand text-white display-6" href="#" style="font-weight: bold; font-size: 36px;">AW-TAHLIIL </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="span"><span class="fas fa-align-justify span-1" ></span></div>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+            <ul class="navbar-nav ">
+              <li class="nav-item active ">
+                <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white display-5"  href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pricing</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background-color: rgb(153, 134, 134); color: white;">
+                  <a class="dropdown-item " href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
          <!--end of navigation--> 
     </header>
     <!--header section-->
 
     <!---slide show part-->
-    <section id="slide-show">
+    <!-- <section id="slide-show">
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -100,17 +122,29 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-    </section>
+    </section> -->
     <!---slide show part-->
 
     <!--main part of the wepsite-->
     <section id="mainbody">
-        <h2 class="text-center">our prudcut list</h2>
-        <div class="pr-show">
+      <br><br>
+      <hr>
+        <h2 class="text-center">our prudcut list</h2><br>
+        <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-md-4 col-lg-3">
-              
+            <!---items-->
+            <div class="col-sm-12 col-md-6 col-lg-3" style="margin: 10px auto; float: left;">
+              <div class="card" style="width: 28rem;">
+                <img src="images/school backg.jpg" class="card-img-top" alt="..." style="width: 250px; margin: 0 auto;">
+                <div class="card-body">
+                  <h5 class="card-title">shandada dhabarka ee caruurta</h5>
+                  <p class="card-text">shandadan waxa loogu tala galay oo ay munaasab ku tahay caruurta da'doodu u dhaxayso 10jir-15jir.</p>
+                  <a href="#" class="btn btn-primary" style="margin-right: 10px;">Laxidhiidha</a><a href="#" class="btn btn-primary">Dalbo Online imika</a>
+                </div>
+              </div>
             </div>
+            <!---end of item-->
+            
           </div>
         </div>
           
