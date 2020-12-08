@@ -56,6 +56,18 @@
  
 /* end of navigation part */
 
+/* main body part  */
+    #mainbody{
+        box-sizing: border-box;
+        color: rgb(3, 0, 0);
+    }
+    .single-product{
+        border: 1px solid #ccc;
+        box-shadow: 0 0 10px #ccc;
+    }
+  
+    
+/* end of main body */
 
 
 /* media quires */
@@ -80,7 +92,7 @@
         }
     }
 } */
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .jumb-2{
         display: none;
     }
@@ -93,6 +105,7 @@
    
     .jumbo h1{
         font-size: 36px;
+        text-align: center;
     }
     .aw{
         font-size: 50px;
@@ -109,7 +122,7 @@
            width: 100%;
            margin: 5px auto;
            background-color: #46858e;
-           border-radius: 20px;
+           border-radius: 4px;
        }
        .nav-link{
            margin-left: 20px;
@@ -121,6 +134,12 @@
            color: black;
        }
     /* end of navbar */
+
+    /* main body */
+      .single-product{
+        width: 280px;
+        margin: 3px auto;
+      }
 }
 
 @media screen and (min-width: 991px){
